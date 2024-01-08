@@ -1,0 +1,22 @@
+@import url("styles/top.css");
+@import url("styles/alert.css");
+@import url("styles/image.css");
+@import url("styles/green.css");
+@import url("styles/slider.css");
+
+:root{
+    --top-icons__blue: #253c7e;
+    --alert-box: #ffc304;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.customLink {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.customLink:hover {
+    text-decoration: underline; /* Underline the links on hover */
+}
